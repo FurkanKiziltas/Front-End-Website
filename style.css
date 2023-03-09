@@ -1,0 +1,161 @@
+.brace {
+    font-size: 25px;
+    margin: 0 15px;
+    color: rgb(183, 183, 183);
+}
+
+.nav-bg {
+    background-color: #86847e !important;
+}
+
+.top-side {
+    background-image: url(./images/4090.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-item a, .dropdown a {
+    color: white !important;
+    font-size: 18px;
+}
+
+.nav-item a:hover, .dropdown a:hover {
+    color: rgb(206, 202, 202) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 992px) {
+    .brace {
+        display: none;
+    }
+
+    .nav-item {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        margin-top: 100px;
+    }
+
+    .job2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .becolumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .worked {
+        margin-top: 50px;
+    }
+
+    form .fa-search {
+        display: none;
+    }
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.fa-solid {
+    color: #78705c;
+}
+
+.color {
+    color: #78705c;
+}
+
+.background {
+    background-color: #78705c;
+    color: wheat;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.height {
+    color: #a99e80;
+    font-size: 50px;
+}
+
+.last {
+    background-image: url(./images/4090.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    padding-top: 180px;
+}
+
+.icon {
+    font-size: 150px;
+    color: white;
+}
+
+.fori {
+    font-style: italic;
+}
+
+.worked {
+    border: 2px solid grey;
+    border-radius: 5%;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 40px;
+    transition: all .3s ease-in-out;
+}
+
+.worked:hover {
+    transform: scale(1.1);
+}
+
+.worked img {
+    width: 500px;
+}
+
+.footer {
+    background-color: #78705c;
+    height: 250px;
+}
+
+.footer-center {
+    height: 250px;
+}
+
+.icons i {
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: wheat;
+}
+
+.icons p {
+    color: wheat;
+}
+
+
+.card {
+    background-color: #86847e;
+    color: black;
+}
+
+
+
+
